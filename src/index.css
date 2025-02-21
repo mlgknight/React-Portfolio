@@ -207,7 +207,7 @@
 
 .txt {
   position: relative;
-  font-family: sans-serif;
+  font-family: "Inter", serif;
   font-size: 1em;
   letter-spacing: 4px;
   overflow: hidden;
@@ -227,3 +227,46 @@
     background-position: 500%;
   }
 }
+
+.menu_button {
+  padding: 1rem 0.3rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #7d2ae8;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding: 10px 10px 10px 0px;
+  background-color: #7d2ae8;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 0px;
+  height: 0px;
+  border-radius: 10px;
+  align-items: center;
+  opacity: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: #fff;
+}
+
+
