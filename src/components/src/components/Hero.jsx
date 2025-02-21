@@ -52,11 +52,7 @@ export default function Hero() {
 						transition={{ ...textAnimation.transition, delay: 2 }}
 					>
 						<a
-<<<<<<< HEAD
 							href="/public/resume.pdf"
-=======
-							href="../resume.pdf"
->>>>>>> refs/remotes/origin/master
 							target="_blank"
 							rel="noopener noreferrer"
 							className="button text-center text-3xl w-50 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
