@@ -38,7 +38,6 @@ export default function Projects() {
 						transition={leftAnimation.transition}
 					>
 						<div className="card-overlay absolute inset-0 pointer-events-none bg-[conic-gradient(var(--bg)_0.0000001%,_var(--grey)_0.000104%)] bg-center bg-[size:600%_600%] opacity-10 contrast-105"></div>
-
 						<div className="card-inner flex justify-start items-center overflow-hidden w-[190px] h-[254px] bg-gray-300 rounded-2xl text-center font-mono font-black text-[30px] text-[#c7c4c4]">
 							<img
 								className="w-full h-full object-cover rounded-lg"
@@ -62,11 +61,7 @@ export default function Projects() {
 									See Live
 								</button>
 							</a>
-							<a
-								href={element.source}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
+							<a href={element.source} target="_blank" rel="noopener noreferrer">
 								<button className="button px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition duration-300">
 									Source Code
 								</button>

@@ -1,7 +1,7 @@
 import countryApplication from "./projects/CountryApplication.png"
 import hangman from "./projects/Hangman.png"
 import menulist from "./projects/menulist.png"
-import shoppingapp from "./projects/shoppingapp.png"
+import VibrantUI from "./projects/VibrantUI.png"
 
 
 export const HERO_CONTENT = [
@@ -34,13 +34,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript", "React", "React Router"],
   },
   {
-    title: "Hopppfox",
-    image: shoppingapp,
-    live: "https://hopppfox.netlify.app/",
-    source: "https://github.com/mlgknight/hopppfox",
+    title: "VibrantUI",
+    image: VibrantUI,
+    live: "https://vibrantui.netlify.app/",
+    source: "https://github.com/mlgknight/React-components-library",
     description:
-      "Hopp Fox is a handy app designed to simplify grocery shopping for team trips and family use. Utilizing Firebase, it stores all your household needs in one central location, accessible by any group member. his site was created for a team training trip to Albuquerque to allow us to manage what we need better. It was put on everyone's phone, saved as a bookmark, and operated as if it was a phone app. It showcases my skills in Firebase integration, collaborative app development, and creating user-friendly solutions.",
-    technologies: ["HTML", "CSS", "Javascript", "Firebase"],
+      "VibrantUI a reusable React Component Library using React, featuring customizable, mobile-friendly UI components like cards, badges, tooltips, toasts, banners, and testimonials. Ensured type safety with TypeScript.",
+    technologies: ["HTML", "CSS", "Typescript", "React"],
   },
   {
     title: "Menu App",

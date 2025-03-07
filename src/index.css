@@ -207,26 +207,17 @@
 
 .txt {
   position: relative;
-  font-family: "Inter", serif;
   font-size: 1em;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
   overflow: hidden;
-  background: linear-gradient(90deg, #fff 10%, #4d4d4d 20%);
+  background-color: #7d2ae8;
   background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  border: 1px solid #7d2ae8;
+  width: 24rem;
+  padding: 3px;
 }
 
-@keyframes animate {
-  0% {
-    background-position: -300%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
+
 
 .menu_button {
   padding: 1rem 0.3rem;
