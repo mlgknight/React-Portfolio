@@ -3,7 +3,7 @@ import photo_oa from '../assets/photo_oa.jpeg';
 import { motion } from 'framer-motion';
 
 export default function Hero() {
-	console.log(HERO_CONTENT);
+
 
 	const textAnimation = {
 		initial: { x: -100, opacity: 0 },
@@ -51,14 +51,6 @@ export default function Hero() {
 						animate={textAnimation.animate}
 						transition={{ ...textAnimation.transition, delay: 2 }}
 					>
-						<a
-							href="/public/resume.pdf"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="button text-center text-3xl w-50 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
-						>
-							Resume
-						</a>
 					</motion.div>
 				</div>
 				<motion.div
