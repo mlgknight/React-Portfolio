@@ -62,7 +62,7 @@ export default function Hero() {
 					<img
 						src={photo_oa}
 						alt="Photo of Oussama Ajala, a Front-end Developer"
-						className="lg:w-full w-xs h-auto rounded-lg shadow-[5px_5px_0px_0px_rgba(109,40,217)]"
+						className="lg:w-auto lg:h-110 w-xs h-auto rounded-lg shadow-[5px_5px_0px_0px_rgba(109,40,217)]"
 					/>
 				</motion.div>
 			</div>
