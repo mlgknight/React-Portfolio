@@ -43,13 +43,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Typescript", "React"],
   },
   {
-    title: "Menu App",
+    title: "Chronos Task Manager",
     image: menulist,
-    live: "https://mmenuitem.netlify.app/dist/index.html",
-    source: "https://github.com/mlgknight/tailwind-diner.github.io",
+    live: "https://github.com/mlgknight/Chronos-Task-Manager#js-repo-pjax-container",
+    source: "https://github.com/mlgknight/Chronos-Task-Manager#js-repo-pjax-container",
     description:
-      "Menu App: Crafted with Tailwind CSS and Daisy UI for a polished interface, it lets users order food and enter payment details seamlessly. Plus, with its dark-to-light theme toggle that persists even after refreshing the page, it’s as user-friendly as it gets. I made this to work on my ability to add a theme change and use Tailwind in my applications.",
-    technologies: ["HTML", "CSS", "Javascript", "Tailwind"],
+      "Chronos is a mindful time-management app designed to help you track tasks, reflect on routines, and engage with time intentionally not as a rigid system, but as a fluid part of life. Built with React Native, Expo, TypeScript, Firebase, and Tailwind CSS, it balances simplicity with functionality, offering a clean, cross-platform experience.",
+    technologies: ["React Native", "Expo", "Tailwind", "Typescript", "Firebase"],
   },
 ];
 
